@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1384817422 source:c:\users\dani\documents\programming\school projects\secant_colebrook\main.c
+	<stdio.h>
+	"secant_colebrook.h"
+
+1384820095 c:\users\dani\documents\programming\school projects\secant_colebrook\secant_colebrook.h
+	<math.h>
+
