@@ -3,4 +3,4 @@ School
 
 this repository is for school projects and programming homework.
 
-This content is released under the MIT license. 
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
