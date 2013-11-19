@@ -46,7 +46,7 @@ float * secant_colebrook(float Re, float D, float epsilon){
 	// this keeps track of how many times the function has gone through the loop.
 	int iter;
 	//this is the maximum number of times that you can go through the while() loop.
-	int maxItt = 200;
+	int maxIter = 200;
 	
 	// define an array of floating point values with two elements.
 	// the first element will store the friction factor.
@@ -67,7 +67,7 @@ float * secant_colebrook(float Re, float D, float epsilon){
 	// make sure the relative error is greater than f_tol to enter the loop
 	relErr = 100*f_tol;
 	
-	while(relErr > f_tol && iter < maxItt && ffact[2] >= 0.0){
+	while(relErr > f_tol && iter < maxIter && ffact[2] >= 0.0){
 		
 		// evaluate the Colebrook equation at point 0
 		y[0]= (1/sqrtf(ffact[0]));
@@ -109,7 +109,7 @@ float * secant_colebrook(float Re, float D, float epsilon){
 	//		- the loop went through too many iter
 	//		- the slope of the line if infinite or zero
 	//		- the ffact value that will be returned is negative
-	if(relErr>f_tol || iter>=maxItt || y[0]==y[1] || ffact[2]<0){
+	if(relErr>f_tol || iter>=maxIter || y[0]==y[1] || ffact[2]<0){
 		// return the value of the invalid friction factor (whatever it may be)
 		returnValues[0] = ffact[2];
 		// set success flag to FAILURE
