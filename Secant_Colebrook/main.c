@@ -1,7 +1,7 @@
 /* main.c
  * Ryan Jensen
  * 2013-11-15 (created)
- * 2013-11-18 (last modified)
+ * 2013-11-20 (last modified)
  * 
  * This program will call the secant_colebrook() function.
  * This program passes parameters to that function.
@@ -12,7 +12,8 @@
 
 // include the standard input/output header file
 #include <stdio.h> 
-// include the header file containing the function that solves the colebrook equation for the friction factor f with the secant method.
+// include the header file containing the function that solves the
+// colebrook equation for the friction factor f with the secant method.
 #include "secant_colebrook.h"
 
 // main program loop
@@ -26,7 +27,7 @@ int main(){
 	float diameter = 5;				// millimeters
 	float roughness = 0.0015;		// millimeters
 	
-	// numerically evaluate the root of the colebrook equation given the following parameters.
+	// numerically evaluate the root of the colebrook equation for the friction factor
 	pointerToReturnValues = secant_colebrook(ReynoldsNumber, diameter, roughness);
 	
 	// save the return values from the secant_colebrook function

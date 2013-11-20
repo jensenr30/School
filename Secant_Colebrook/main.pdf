@@ -1,0 +1,314 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 15506>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr ( 1  ) Tj  ET Q
+q 0.149 0.576 0.608 rg BT 1 0 0 -1 47.55 36.42 Tm 0 Tr (/* main.c) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr ( 2  ) Tj  ET Q
+q 0.149 0.576 0.608 rg BT 1 0 0 -1 52.35 47.76 Tm 0 Tr (* Ryan Jensen) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr ( 3  ) Tj  ET Q
+q 0.149 0.576 0.608 rg BT 1 0 0 -1 52.35 59.10 Tm 0 Tr (* 2013-11-15 \(created\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr ( 4  ) Tj  ET Q
+q 0.149 0.576 0.608 rg BT 1 0 0 -1 52.35 70.44 Tm 0 Tr (* 2013-11-20 \(last modified\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr ( 5  ) Tj  ET Q
+q 0.149 0.576 0.608 rg BT 1 0 0 -1 52.35 81.77 Tm 0 Tr (* ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr ( 6  ) Tj  ET Q
+q 0.149 0.576 0.608 rg BT 1 0 0 -1 52.35 93.11 Tm 0 Tr (* This program will call the secant_colebrook\(\) function.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr ( 7  ) Tj  ET Q
+q 0.149 0.576 0.608 rg BT 1 0 0 -1 52.35 104.45 Tm 0 Tr (* This program passes parameters to that function.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr ( 8  ) Tj  ET Q
+q 0.149 0.576 0.608 rg BT 1 0 0 -1 52.35 115.79 Tm 0 Tr (* The function will calcuate a friction factor from those parameters.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr ( 9  ) Tj  ET Q
+q 0.149 0.576 0.608 rg BT 1 0 0 -1 52.35 127.13 Tm 0 Tr (* The function will print the results to the user via the terminal.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr (10  ) Tj  ET Q
+q 0.149 0.576 0.608 rg BT 1 0 0 -1 47.55 138.47 Tm 0 Tr (*/) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr (11  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr (12  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr (13  ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 47.55 172.48 Tm 0 Tr (// include the standard input/output header file) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr (14  ) Tj  ET Q
+1.000 1.000 0.000 rg
+47.55 175.75 91.20 11.34 re f q 0.000 0.627 0.000 rg BT 1 0 0 -1 47.55 183.82 Tm 0 Tr (#include <stdio.h> ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr (15  ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 47.55 195.16 Tm 0 Tr (// include the header file containing the function that solves the) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr (16  ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 47.55 206.50 Tm 0 Tr (// colebrook equation for the friction factor f with the secant method.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr (17  ) Tj  ET Q
+1.000 1.000 0.000 rg
+47.55 209.77 139.20 11.34 re f q 0.000 0.627 0.000 rg BT 1 0 0 -1 47.55 217.84 Tm 0 Tr (#include "secant_colebrook.h") Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr (18  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr (19  ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 47.55 240.51 Tm 0 Tr (// main program loop) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (20  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 251.85 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+66.75 243.78 19.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 251.85 Tm 0 Tr (main) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 85.95 251.85 Tm 0 Tr (\(\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (21  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 263.19 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr (22  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 274.53 Tm 0 Tr (    ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 66.75 274.53 Tm 0 Tr (// this is used to point to the return values from the secant_colebrook function.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr (23  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 285.87 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 66.75 285.87 Tm 0 Tr (float ) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 95.55 285.87 Tm 0 Tr (*) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 277.80 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 285.87 Tm 0 Tr (pointerToReturnValues ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 205.95 285.87 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+215.55 277.80 19.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 215.55 285.87 Tm 0 Tr (NULL) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 234.75 285.87 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr (24  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 297.21 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr (25  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 308.55 Tm 0 Tr (    ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 66.75 308.55 Tm 0 Tr (// these are values that will be passed to the secant_colebrook equation.) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr (26  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 319.88 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 66.75 319.88 Tm 0 Tr (float ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+95.55 311.81 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 319.88 Tm 0 Tr (ReynoldsNumber ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 167.55 319.88 Tm 0 Tr (= ) Tj  ET Q
+q 0.000 0.502 0.000 rg BT 1 0 0 -1 177.15 319.88 Tm 0 Tr (8743) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 196.35 319.88 Tm 0 Tr (;    ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 220.35 319.88 Tm 0 Tr (// unitless) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr (27  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 331.22 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 66.75 331.22 Tm 0 Tr (float ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+95.55 323.15 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 331.22 Tm 0 Tr (diameter ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 138.75 331.22 Tm 0 Tr (= ) Tj  ET Q
+q 0.000 0.502 0.000 rg BT 1 0 0 -1 148.35 331.22 Tm 0 Tr (5) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 153.15 331.22 Tm 0 Tr (;             ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 220.35 331.22 Tm 0 Tr (// millimeters) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr (28  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 342.56 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 66.75 342.56 Tm 0 Tr (float ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+95.55 334.49 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 342.56 Tm 0 Tr (roughness ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 143.55 342.56 Tm 0 Tr (= ) Tj  ET Q
+q 0.000 0.502 0.000 rg BT 1 0 0 -1 153.15 342.56 Tm 0 Tr (0.0015) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 181.95 342.56 Tm 0 Tr (;       ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 220.35 342.56 Tm 0 Tr (// millimeters) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr (29  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 353.90 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr (30  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 365.24 Tm 0 Tr (    ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 66.75 365.24 Tm 0 Tr (// numerically evaluate the root of the colebrook equation for the friction factor) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr (31  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 376.58 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+66.75 368.51 105.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 376.58 Tm 0 Tr (pointerToReturnValues ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 172.35 376.58 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+181.95 368.51 76.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 181.95 376.58 Tm 0 Tr (secant_colebrook) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 258.75 376.58 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+263.55 368.51 67.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 263.55 376.58 Tm 0 Tr (ReynoldsNumber) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 330.75 376.58 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+340.35 368.51 38.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 340.35 376.58 Tm 0 Tr (diameter) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 378.75 376.58 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+388.35 368.51 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 388.35 376.58 Tm 0 Tr (roughness) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 431.55 376.58 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (32  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 387.92 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr (33  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 399.25 Tm 0 Tr (    ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 66.75 399.25 Tm 0 Tr (// save the return values from the secant_colebrook function) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr (34  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 410.59 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 66.75 410.59 Tm 0 Tr (float ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+95.55 402.52 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 410.59 Tm 0 Tr (frictionFactor ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 167.55 410.59 Tm 0 Tr (= *) Tj  ET Q
+1.000 1.000 1.000 rg
+181.95 402.52 100.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 181.95 410.59 Tm 0 Tr (pointerToReturnValues) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 282.75 410.59 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr (35  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 421.93 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 66.75 421.93 Tm 0 Tr (float ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+95.55 413.86 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 95.55 421.93 Tm 0 Tr (secantSuccess  ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 167.55 421.93 Tm 0 Tr (= *\() Tj  ET Q
+1.000 1.000 1.000 rg
+186.75 413.86 100.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 186.75 421.93 Tm 0 Tr (pointerToReturnValues) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 287.55 421.93 Tm 0 Tr (+) Tj  ET Q
+q 0.000 0.502 0.000 rg BT 1 0 0 -1 292.35 421.93 Tm 0 Tr (1) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 297.15 421.93 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (36  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 433.27 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (37  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 444.61 Tm 0 Tr (    ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 66.75 444.61 Tm 0 Tr (// print out information to the user) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr (38  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 455.95 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+66.75 447.88 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 455.95 Tm 0 Tr (printf) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 95.55 455.95 Tm 0 Tr (\() Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 455.95 Tm 0 Tr ("Friction factor = %f\\n") Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 215.55 455.95 Tm 0 Tr (,) Tj  ET Q
+1.000 1.000 1.000 rg
+220.35 447.88 67.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 455.95 Tm 0 Tr (frictionFactor) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 287.55 455.95 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (39  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 467.29 Tm 0 Tr (    ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 66.75 467.29 Tm 0 Tr (// print success data) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (40  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 478.62 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 66.75 478.62 Tm 0 Tr (if) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 76.35 478.62 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+81.15 470.55 67.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 81.15 478.62 Tm 0 Tr (secantSuccess ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 148.35 478.62 Tm 0 Tr (== ) Tj  ET Q
+1.000 1.000 1.000 rg
+162.75 470.55 115.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 162.75 478.62 Tm 0 Tr (SECANT_COLEBROOK_SUCCESS) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 277.95 478.62 Tm 0 Tr (\){) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (41  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 489.96 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+85.95 481.89 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 85.95 489.96 Tm 0 Tr (printf) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 114.75 489.96 Tm 0 Tr (\() Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 119.55 489.96 Tm 0 Tr ("Success = true.\\n") Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 210.75 489.96 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (42  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 501.30 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 66.75 501.30 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (43  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 512.64 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 66.75 512.64 Tm 0 Tr (else) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 85.95 512.64 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (44  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 523.98 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+85.95 515.91 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 85.95 523.98 Tm 0 Tr (printf) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 114.75 523.98 Tm 0 Tr (\() Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 119.55 523.98 Tm 0 Tr ("Success = false.\\n") Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 215.55 523.98 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr (45  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 535.32 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 66.75 535.32 Tm 0 Tr (}) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (46  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 546.66 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (47  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 557.99 Tm 0 Tr (    ) Tj  ET Q
+q 0.502 0.502 0.502 rg BT 1 0 0 -1 66.75 557.99 Tm 0 Tr (// end program) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr (48  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 569.33 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 66.75 569.33 Tm 0 Tr (return ) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 0.000 0.502 0.000 rg BT 1 0 0 -1 100.35 569.33 Tm 0 Tr (0) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 105.15 569.33 Tm 0 Tr (;) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (49  ) Tj  ET Q
+q 0.000 0.502 0.753 rg BT 1 0 0 -1 47.55 580.67 Tm 0 Tr (}) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+5 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 5 0 R
+/F1 6 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+7 0 obj
+<<
+/Names []
+>>
+endobj
+8 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 3)
+/CreationDate (D:20131120091729)
+>>
+endobj
+9 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000015655 00000 n 
+0000015937 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000015744 00000 n 
+0000015843 00000 n 
+0000016051 00000 n 
+0000016082 00000 n 
+0000016189 00000 n 
+trailer
+<<
+/Size 10
+/Root 9 0 R
+/Info 8 0 R
+>>
+startxref
+16292
+%%EOF
